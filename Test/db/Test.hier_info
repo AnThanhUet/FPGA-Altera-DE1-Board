@@ -1,0 +1,14 @@
+|Test
+led_0[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+led_0[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+led_0[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+led_0[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+led_0[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+led_0[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+led_0[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+sw1 => value[0].CLK
+sw1 => value[1].CLK
+sw1 => value[2].CLK
+sw1 => value[3].CLK
+
+

@@ -1,0 +1,51 @@
+LIBRARY IEEE; 
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY TEST IS
+	PORT(
+		CLK : IN STD_LOGIC;
+		LED : out STD_LOGIC 
+	);
+END TEST;
+
+ARCHITECTURE MAIN OF TEST IS
+
+CONSTANT CLK_50 : NATURAL := 50000000; 
+
+SIGNAL STATUS : STD_LOGIC := '0';
+SIGNAL CNT : NATURAL RANGE 0 TO clk_50;
+SIGNAL RST : STD_LOGIC := '1';
+
+SIGNAL CNT_RST : NATURAL RANGE 0 TO 10000;
+
+BEGIN
+	LED <= '0';
+--	PROCESS (CLK, RST)
+--		BEGIN
+--	
+--		IF RST = '1' THEN
+--			--LED <= '0';
+--			CNT <= 0;
+--	
+--		ELSIF RISING_EDGE(CLK)THEN
+--			IF CNT = CLK_50 - 1  THEN
+--				STATUS <= NOT STATUS;
+--				--led <= STATUS;
+--				CNT <= 0;
+--			ELSE
+--				CNT <= CNT + 1;
+--			END IF;
+--		END IF;	
+--	END PROCESS;
+--	
+--	PROCESS (RST)
+--		BEGIN
+--			IF CNT_RST = 10000 - 1 THEN
+--				RST <= NOT RST;
+--				CNT_RST <= 0;
+--			ELSE
+--				CNT_RST <= CNT_RST + 1;
+--			END IF;
+--	END PROCESS;
+	
+END MAIN;
