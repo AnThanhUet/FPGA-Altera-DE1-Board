@@ -1,0 +1,43 @@
+Mon Oct 12 09:08:37 ICT 2020  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Mon Oct 12 09:08:37 ICT 2020   [info] ************************************************************** 
+Mon Oct 12 09:08:37 ICT 2020   [info] Starting Jakarta Velocity v1.4
+Mon Oct 12 09:08:37 ICT 2020   [info] RuntimeInstance initializing.
+Mon Oct 12 09:08:37 ICT 2020   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Mon Oct 12 09:08:37 ICT 2020   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Mon Oct 12 09:08:37 ICT 2020   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Mon Oct 12 09:08:37 ICT 2020   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Mon Oct 12 09:08:37 ICT 2020   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Mon Oct 12 09:08:37 ICT 2020   [info] FileResourceLoader : initialization starting.
+Mon Oct 12 09:08:37 ICT 2020   [info] FileResourceLoader : adding path 'c:/altera/13.1/ip/altera/nco/lib/\template'
+Mon Oct 12 09:08:37 ICT 2020   [info] FileResourceLoader : adding path '.'
+Mon Oct 12 09:08:37 ICT 2020   [info] FileResourceLoader : initialization complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.JarResourceLoader
+Mon Oct 12 09:08:37 ICT 2020   [info] JarResourceLoader : initialization starting.
+Mon Oct 12 09:08:37 ICT 2020   [info] JarResourceLoader # of paths : 0
+Mon Oct 12 09:08:37 ICT 2020   [info] JarResourceLoader : initialization complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Mon Oct 12 09:08:37 ICT 2020   [info] ClasspathResourceLoader : initialization starting.
+Mon Oct 12 09:08:37 ICT 2020   [info] ClasspathResourceLoader : initialization complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Mon Oct 12 09:08:37 ICT 2020   [info] Default ResourceManager initialization complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Mon Oct 12 09:08:37 ICT 2020   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Mon Oct 12 09:08:37 ICT 2020   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Mon Oct 12 09:08:37 ICT 2020   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Mon Oct 12 09:08:37 ICT 2020   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Mon Oct 12 09:08:37 ICT 2020   [info] Created: 20 parsers.
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : initialization starting.
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : added new VM : #listall( list ) : source = VM_global_library.vm
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : added new VM : #listlist( list ) : source = VM_global_library.vm
+Mon Oct 12 09:08:37 ICT 2020   [info] ResourceManager : found VM_global_library.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro :  VM library template macro registration complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : messages on  : VM system will output logging messages
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocimacro : initialization complete.
+Mon Oct 12 09:08:37 ICT 2020   [info] Velocity successfully started.
+Mon Oct 12 09:08:37 ICT 2020   [info] ResourceManager : found nco_nativelink_tcl.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Mon Oct 12 09:08:37 ICT 2020   [info] ResourceManager : found alt_license_tcl.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader

@@ -1,0 +1,94 @@
+EDA Netlist Writer report for dac
+Tue Apr 13 21:10:55 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Tue Apr 13 21:10:55 2021 ;
+; Revision Name             ; dac                               ;
+; Top-level Entity Name     ; dac                               ;
+; Family                    ; Cyclone V                         ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit EDA Netlist Writer
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Tue Apr 13 21:10:54 2021
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off dac -c dac
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_madx_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mady_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mob_w.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_gam_dp.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_altqmcpipe.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_dp_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_derot.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_apr_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_madx_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mady_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mob_w.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_gam_dp.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_altqmcpipe.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_dp_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_derot.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_apr_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_madx_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mady_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_mob_w.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_gam_dp.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_altqmcpipe.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_as_m_dp_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_derot.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Dac/nco-library/asj_nco_apr_dxx.v" is not available
+Error: Quartus II 64-Bit EDA Netlist Writer was unsuccessful. 36 errors, 0 warnings
+    Error: Peak virtual memory: 4591 megabytes
+    Error: Processing ended: Tue Apr 13 21:10:55 2021
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:02
+
+

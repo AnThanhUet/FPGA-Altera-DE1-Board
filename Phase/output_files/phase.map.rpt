@@ -1,6 +1,6 @@
 Analysis & Synthesis report for phase
-Fri Apr  9 23:58:50 2021
-Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+Sun Apr 11 23:55:34 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -47,29 +47,29 @@ applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+-------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status         ; Successful - Fri Apr  9 23:58:50 2021       ;
-; Quartus II 64-Bit Version           ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
-; Revision Name                       ; phase                                       ;
-; Top-level Entity Name               ; phase                                       ;
-; Family                              ; Cyclone V                                   ;
-; Logic utilization (in ALMs)         ; N/A                                         ;
-; Total registers                     ; 0                                           ;
-; Total pins                          ; 15                                          ;
-; Total virtual pins                  ; 0                                           ;
-; Total block memory bits             ; 0                                           ;
-; Total DSP Blocks                    ; 0                                           ;
-; Total HSSI RX PCSs                  ; 0                                           ;
-; Total HSSI PMA RX Deserializers     ; 0                                           ;
-; Total HSSI PMA RX ATT Deserializers ; 0                                           ;
-; Total HSSI TX PCSs                  ; 0                                           ;
-; Total HSSI PMA TX Serializers       ; 0                                           ;
-; Total HSSI PMA TX ATT Serializers   ; 0                                           ;
-; Total PLLs                          ; 0                                           ;
-; Total DLLs                          ; 0                                           ;
-+-------------------------------------+---------------------------------------------+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++-------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status         ; Successful - Sun Apr 11 23:55:34 2021      ;
+; Quartus II 64-Bit Version           ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                       ; phase                                      ;
+; Top-level Entity Name               ; phase                                      ;
+; Family                              ; Cyclone V                                  ;
+; Logic utilization (in ALMs)         ; N/A                                        ;
+; Total registers                     ; 0                                          ;
+; Total pins                          ; 15                                         ;
+; Total virtual pins                  ; 0                                          ;
+; Total block memory bits             ; 0                                          ;
+; Total DSP Blocks                    ; 0                                          ;
+; Total HSSI RX PCSs                  ; 0                                          ;
+; Total HSSI PMA RX Deserializers     ; 0                                          ;
+; Total HSSI PMA RX ATT Deserializers ; 0                                          ;
+; Total HSSI TX PCSs                  ; 0                                          ;
+; Total HSSI PMA TX Serializers       ; 0                                          ;
+; Total HSSI PMA TX ATT Serializers   ; 0                                          ;
+; Total PLLs                          ; 0                                          ;
+; Total DLLs                          ; 0                                          ;
++-------------------------------------+--------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -159,94 +159,88 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                  ;
-+----------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------+---------+
-; top.vhd                          ; yes             ; User VHDL File                         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/top.vhd                                 ;         ;
-; nco_20hz_st.v                    ; yes             ; User Verilog HDL File                  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz_st.v                           ;         ;
-; nco_20hz.vhd                     ; yes             ; User Wizard-Generated File             ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz.vhd                            ;         ;
-; nco_35Mhz_st.v                   ; yes             ; User Verilog HDL File                  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz_st.v                          ;         ;
-; nco_35Mhz.vhd                    ; yes             ; User Wizard-Generated File             ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz.vhd                           ;         ;
-; pll_125.vhd                      ; yes             ; User Wizard-Generated File             ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/pll_125.vhd                             ; pll_125 ;
-; pll_125/pll_125_0002.v           ; yes             ; User Verilog HDL File                  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/pll_125/pll_125_0002.v                  ; pll_125 ;
-; altera_pll.v                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altera_pll.v            ;         ;
-; asj_altqmcpipe.v                 ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_altqmcpipe.v            ;         ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
-; addcore.inc                      ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/addcore.inc             ;         ;
-; look_add.inc                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/look_add.inc            ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/bypassff.inc            ;         ;
-; altshift.inc                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altshift.inc            ;         ;
-; alt_stratix_add_sub.inc          ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/aglobal130.inc          ;         ;
-; db/add_sub_hth.tdf               ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/add_sub_hth.tdf                      ;         ;
-; asj_dxx_g.v                      ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx_g.v                 ;         ;
-; asj_dxx.v                        ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx.v                   ;         ;
-; db/add_sub_cmh.tdf               ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/add_sub_cmh.tdf                      ;         ;
-; asj_nco_apr_dxx.v                ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_apr_dxx.v           ;         ;
-; asj_gam_dp.v                     ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_gam_dp.v                ;         ;
-; asj_nco_as_m_dp_cen.v            ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_dp_cen.v       ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
-; altrom.inc                       ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altrom.inc              ;         ;
-; altram.inc                       ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altram.inc              ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altdpram.inc            ;         ;
-; db/altsyncram_60e2.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_60e2.tdf                  ;         ;
-; nco_35Mhz_sin_c.hex              ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz_sin_c.hex                     ;         ;
-; asj_nco_as_m_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_cen.v          ;         ;
-; db/altsyncram_tnf1.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_tnf1.tdf                  ;         ;
-; nco_35Mhz_sin_f.hex              ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz_sin_f.hex                     ;         ;
-; db/altsyncram_onf1.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_onf1.tdf                  ;         ;
-; nco_35Mhz_cos_f.hex              ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz_cos_f.hex                     ;         ;
-; asj_nco_madx_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_madx_cen.v          ;         ;
-; altmult_add.tdf                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altmult_add.tdf         ;         ;
-; stratix_mac_mult.inc             ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/stratix_mac_mult.inc    ;         ;
-; stratix_mac_out.inc              ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/stratix_mac_out.inc     ;         ;
-; db/mult_add_vom2.v               ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/mult_add_vom2.v                      ;         ;
-; altera_mult_add_rtl.v            ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/altera_mult_add_rtl.v   ;         ;
-; asj_nco_mady_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mady_cen.v          ;         ;
-; db/mult_add_unm2.v               ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/mult_add_unm2.v                      ;         ;
-; asj_nco_derot.v                  ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_derot.v             ;         ;
-; asj_nco_mob_w.v                  ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mob_w.v             ;         ;
-; db/add_sub_50l.tdf               ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/add_sub_50l.tdf                      ;         ;
-; asj_nco_isdr.v                   ; yes             ; Encrypted Auto-Found Verilog HDL File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_isdr.v              ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/dffeea.inc              ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                           ; /home/lavie/altera/13.0/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
-; db/cntr_aki.tdf                  ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/cntr_aki.tdf                         ;         ;
-; db/altsyncram_jsd2.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_jsd2.tdf                  ;         ;
-; nco_20hz_sin_c.hex               ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz_sin_c.hex                      ;         ;
-; db/altsyncram_akf1.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_akf1.tdf                  ;         ;
-; nco_20hz_sin_f.hex               ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz_sin_f.hex                      ;         ;
-; db/altsyncram_5kf1.tdf           ; yes             ; Auto-Generated Megafunction            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/db/altsyncram_5kf1.tdf                  ;         ;
-; nco_20hz_cos_f.hex               ; yes             ; Auto-Found Memory Initialization File  ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz_cos_f.hex                      ;         ;
-+----------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                         ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                           ; Library ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
+; top.vhd                          ; yes             ; User VHDL File                         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/top.vhd                           ;         ;
+; nco_20hz_st.v                    ; yes             ; User Verilog HDL File                  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz_st.v                     ;         ;
+; nco_20hz.vhd                     ; yes             ; User Wizard-Generated File             ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz.vhd                      ;         ;
+; nco_35Mhz_st.v                   ; yes             ; User Verilog HDL File                  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz_st.v                    ;         ;
+; nco_35Mhz.vhd                    ; yes             ; User Wizard-Generated File             ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz.vhd                     ;         ;
+; pll_125.vhd                      ; yes             ; User Wizard-Generated File             ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/pll_125.vhd                       ; pll_125 ;
+; pll_125/pll_125_0002.v           ; yes             ; User Verilog HDL File                  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/pll_125/pll_125_0002.v            ; pll_125 ;
+; altera_pll.v                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altera_pll.v                            ;         ;
+; asj_altqmcpipe.v                 ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_altqmcpipe.v      ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_add_sub.tdf                         ;         ;
+; addcore.inc                      ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/addcore.inc                             ;         ;
+; look_add.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/look_add.inc                            ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/bypassff.inc                            ;         ;
+; altshift.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altshift.inc                            ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                 ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/aglobal130.inc                          ;         ;
+; db/add_sub_hth.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/add_sub_hth.tdf                ;         ;
+; asj_dxx_g.v                      ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx_g.v           ;         ;
+; asj_dxx.v                        ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx.v             ;         ;
+; db/add_sub_cmh.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/add_sub_cmh.tdf                ;         ;
+; asj_nco_apr_dxx.v                ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_apr_dxx.v     ;         ;
+; asj_gam_dp.v                     ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_gam_dp.v          ;         ;
+; asj_nco_as_m_dp_cen.v            ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_dp_cen.v ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altsyncram.tdf                          ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_ram_block.inc                   ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_mux.inc                             ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_decode.inc                          ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/a_rdenreg.inc                           ;         ;
+; altrom.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altrom.inc                              ;         ;
+; altram.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altram.inc                              ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altdpram.inc                            ;         ;
+; db/altsyncram_60e2.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_60e2.tdf            ;         ;
+; nco_35Mhz_sin_c.hex              ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz_sin_c.hex               ;         ;
+; asj_nco_as_m_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_cen.v    ;         ;
+; db/altsyncram_tnf1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_tnf1.tdf            ;         ;
+; nco_35Mhz_sin_f.hex              ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz_sin_f.hex               ;         ;
+; db/altsyncram_onf1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_onf1.tdf            ;         ;
+; nco_35Mhz_cos_f.hex              ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz_cos_f.hex               ;         ;
+; asj_nco_madx_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_madx_cen.v    ;         ;
+; altmult_add.tdf                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altmult_add.tdf                         ;         ;
+; stratix_mac_mult.inc             ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_mac_mult.inc                    ;         ;
+; stratix_mac_out.inc              ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_mac_out.inc                     ;         ;
+; db/mult_add_vom2.v               ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/mult_add_vom2.v                ;         ;
+; altera_mult_add_rtl.v            ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altera_mult_add_rtl.v                   ;         ;
+; asj_nco_mady_cen.v               ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mady_cen.v    ;         ;
+; db/mult_add_unm2.v               ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/mult_add_unm2.v                ;         ;
+; asj_nco_derot.v                  ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_derot.v       ;         ;
+; asj_nco_mob_w.v                  ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mob_w.v       ;         ;
+; db/add_sub_50l.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/add_sub_50l.tdf                ;         ;
+; asj_nco_isdr.v                   ; yes             ; Encrypted Auto-Found Verilog HDL File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_isdr.v        ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_counter.tdf                         ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_constant.inc                        ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_add_sub.inc                         ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/cmpconst.inc                            ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_compare.inc                         ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_counter.inc                         ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/dffeea.inc                              ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/alt_counter_stratix.inc                 ;         ;
+; db/cntr_aki.tdf                  ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/cntr_aki.tdf                   ;         ;
+; db/altsyncram_jsd2.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_jsd2.tdf            ;         ;
+; nco_20hz_sin_c.hex               ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz_sin_c.hex                ;         ;
+; db/altsyncram_akf1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_akf1.tdf            ;         ;
+; nco_20hz_sin_f.hex               ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz_sin_f.hex                ;         ;
+; db/altsyncram_5kf1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/db/altsyncram_5kf1.tdf            ;         ;
+; nco_20hz_cos_f.hex               ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz_cos_f.hex                ;         ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -284,43 +278,44 @@ applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                     ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                               ; IP Include File                                                           ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-; Altera ; altera_pll   ; 13.0    ; N/A          ; N/A          ; |phase|pll_125:Clock_125                                                      ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/pll_125.vhd                       ;
-; Altera ; NCO          ; 13.0    ; N/A          ; N/A          ; |phase|nco_20hz:f20hz                                                         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_20hz.vhd                      ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mob_w.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mob_w.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mady_cen:m0        ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mady_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_madx_cen:m1        ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_madx_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_altqmcpipe:ux000       ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_altqmcpipe.v      ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx_g:ux001            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx_g.v           ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx:ux002              ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx.v             ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_gam_dp:ux008           ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_gam_dp.v          ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_derot:ux0136       ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_derot.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_apr_dxx:ux0219     ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_apr_dxx.v     ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_dp_cen:ux0220 ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_dp_cen.v ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_isdr:ux710isdr     ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_isdr.v        ;
-; Altera ; NCO          ; 13.0    ; N/A          ; N/A          ; |phase|nco_35Mhz:f35Mhz                                                       ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco_35Mhz.vhd                     ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mob_w.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mob_w.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mady_cen:m0        ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_mady_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_madx_cen:m1        ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_madx_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_altqmcpipe:ux000       ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_altqmcpipe.v      ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx_g:ux001            ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx_g.v           ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx:ux002              ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_dxx.v             ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_gam_dp:ux008           ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_gam_dp.v          ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_cen.v    ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_derot:ux0136       ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_derot.v       ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_apr_dxx:ux0219     ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_apr_dxx.v     ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_dp_cen:ux0220 ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_as_m_dp_cen.v ;
-; Altera ; NCO          ; N/A     ; May 2013     ; Licensed     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_isdr:ux710isdr     ; /media/lavie/ESD-USB/anthanh/FPGA/Phase/nco-library/asj_nco_isdr.v        ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+---------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                  ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                               ; IP Include File                                                                        ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+; Altera ; altera_pll   ; 13.0    ; N/A          ; N/A          ; |phase|pll_125:Clock_125                                                      ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/pll_125.vhd                       ;
+; Altera ; NCO          ; 13.0    ; N/A          ; N/A          ; |phase|nco_20hz:f20hz                                                         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_20hz.vhd                      ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mob_w.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mob_w.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mady_cen:m0        ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mady_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_madx_cen:m1        ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_madx_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_altqmcpipe:ux000       ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_altqmcpipe.v      ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx_g:ux001            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx_g.v           ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx:ux002              ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx.v             ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_gam_dp:ux008           ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_gam_dp.v          ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_derot:ux0136       ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_derot.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_apr_dxx:ux0219     ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_apr_dxx.v     ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_dp_cen:ux0220 ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_dp_cen.v ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_isdr:ux710isdr     ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_isdr.v        ;
+; Altera ; NCO          ; 13.0    ; N/A          ; N/A          ; |phase|nco_35Mhz:f35Mhz                                                       ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco_35Mhz.vhd                     ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mob_w.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mob_w:blk0         ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mob_w.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_mady_cen:m0        ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_mady_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_madx_cen:m1        ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_madx_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_altqmcpipe:ux000       ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_altqmcpipe.v      ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx_g:ux001            ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx_g.v           ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_dxx:ux002              ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_dxx.v             ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_gam_dp:ux008           ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_gam_dp.v          ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_cen:ux0122    ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_cen.v    ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_derot:ux0136       ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_derot.v       ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_apr_dxx:ux0219     ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_apr_dxx.v     ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_as_m_dp_cen:ux0220 ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_as_m_dp_cen.v ;
+; Altera ; NCO          ; N/A     ; May 2013     ; OpenCore     ; |phase|nco_20hz:f20hz|nco_20hz_st:nco_20hz_st_inst|asj_nco_isdr:ux710isdr     ; C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/nco-library/asj_nco_isdr.v        ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+OpenCore Simulation-Only Evaluation feature is turned on for all cores in the design.
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -902,10 +897,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Fri Apr  9 23:58:43 2021
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Sun Apr 11 23:55:22 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off phase -c phase
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file top.vhd
     Info (12022): Found design unit 1: phase-rtl
     Info (12023): Found entity 1: phase
@@ -914,9 +909,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file nco_20h
 Info (12021): Found 2 design units, including 1 entities, in source file nco_20hz.vhd
     Info (12022): Found design unit 1: nco_20hz-SYN
     Info (12023): Found entity 1: nco_20hz
-Info (12021): Found 1 design units, including 1 entities, in source file nco_35Mhz_st.v
+Info (12021): Found 1 design units, including 1 entities, in source file nco_35mhz_st.v
     Info (12023): Found entity 1: nco_35Mhz_st
-Info (12021): Found 2 design units, including 1 entities, in source file nco_35Mhz.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file nco_35mhz.vhd
     Info (12022): Found design unit 1: nco_35Mhz-SYN
     Info (12023): Found entity 1: nco_35Mhz
 Info (12021): Found 2 design units, including 1 entities, in source file pll_125.vhd
@@ -1912,6 +1907,7 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "nco_35Mhz:f35Mhz|nco_35Mhz_st:nco_35Mhz_st_inst|asj_nco_as_m_dp_cen:ux0220|altsyncram:altsyncram_component|altsyncram_60e2:auto_generated|q_a[11]"
         Warning (14320): Synthesized away node "nco_35Mhz:f35Mhz|nco_35Mhz_st:nco_35Mhz_st_inst|asj_nco_as_m_dp_cen:ux0220|altsyncram:altsyncram_component|altsyncram_60e2:auto_generated|q_a[12]"
         Warning (14320): Synthesized away node "nco_35Mhz:f35Mhz|nco_35Mhz_st:nco_35Mhz_st_inst|asj_nco_as_m_dp_cen:ux0220|altsyncram:altsyncram_component|altsyncram_60e2:auto_generated|q_a[13]"
+Warning (12193): OpenCore Plus Hardware Evaluation feature will not be used - it is not supported for this device family
 Info (17049): 274 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -1934,10 +1930,10 @@ Warning (21074): Design contains 15 input pin(s) that do not drive logic
 Info (21057): Implemented 15 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 0 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 131 warnings
-    Info: Peak virtual memory: 774 megabytes
-    Info: Processing ended: Fri Apr  9 23:58:50 2021
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:05
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 133 warnings
+    Info: Peak virtual memory: 4740 megabytes
+    Info: Processing ended: Sun Apr 11 23:55:34 2021
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:10
 
 

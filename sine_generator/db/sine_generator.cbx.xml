@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sine_generator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_altqmcpipe:ux000|lpm_add_sub:acc" CBX_FILE_NAME="add_sub_hth.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_nco_as_m_dp_cen:ux0220|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vjd2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_nco_isdr:ux710isdr|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_aki.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_nco_mob_w:blk0|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_50l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|mac_i_lpmd:m0|lmsd:m_1|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_vbu.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_dxx:ux002|lpm_add_sub:ux014" CBX_FILE_NAME="add_sub_cmh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_nco_as_m_cen:ux0123|altsyncram:altsyncram_component0" CBX_FILE_NAME="altsyncram_hbf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|mac_i_lpmd:m0|las:a_0|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_4pi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|mac_i_lpmd:m0|lmsd:m_0|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_vbu.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_generator|nco_0:c3|nco_0_st:nco_0_st_inst|asj_nco_as_m_cen:ux0122|altsyncram:altsyncram_component0" CBX_FILE_NAME="altsyncram_mbf1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

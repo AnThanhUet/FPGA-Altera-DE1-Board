@@ -1,0 +1,21 @@
+Fitter Status : Successful - Tue Apr 13 09:35:50 2021
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : dac
+Top-level Entity Name : dac
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 165 / 32,070 ( < 1 % )
+Total registers : 328
+Total pins : 34 / 457 ( 7 % )
+Total virtual pins : 0
+Total block memory bits : 21,504 / 4,065,280 ( < 1 % )
+Total DSP Blocks : 2 / 87 ( 2 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI PMA RX ATT Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total HSSI PMA TX ATT Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,6 @@
+
+State Machine - |dac|state
+Name state.channel_b state.channel_a state.init 
+state.init 0 0 0 
+state.channel_a 0 1 1 
+state.channel_b 1 0 1 

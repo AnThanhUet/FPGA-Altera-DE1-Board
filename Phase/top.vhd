@@ -18,15 +18,18 @@ architecture rtl of phase is
 	
 	signal clk_125 : std_logic := '0';
 	
+	-- NCO input
 	signal phi_inc_35Mhz : integer := 1202590843;
 	signal phi_inc_20hz  : integer := 34;
 	signal cnv_phi_inc_35Mhz : std_logic_vector (31 DOWNTO 0);
 	signal cnv_phi_inc_20hz : std_logic_vector (31 DOWNTO 0);
 	
+	-- NCO output
 	signal fsin_35Mhz : std_logic_vector (13 downto 0);
 	signal fcos_35Mhz : std_logic_vector (13 downto 0);
 	signal fsin_20hz  : std_logic_vector (13 downto 0);
 	signal fcos_20hz  : std_logic_vector (13 downto 0);
+	signal target_fsin_35Mhz : std_logic_vector (13 downto 0);
 	
 	-- reset software
 	signal rst 		: std_logic := '1';

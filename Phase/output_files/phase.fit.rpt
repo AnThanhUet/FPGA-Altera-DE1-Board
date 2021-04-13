@@ -1,6 +1,6 @@
 Fitter report for phase
-Fri Apr  9 23:59:30 2021
-Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+Sun Apr 11 23:56:50 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -32,6 +32,7 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
  24. Fitter Device Options
  25. Operating Settings and Conditions
  26. Fitter Messages
+ 27. Fitter Suppressed Messages
 
 
 
@@ -54,31 +55,31 @@ applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Fitter Summary                                                                    ;
-+-------------------------------------+---------------------------------------------+
-; Fitter Status                       ; Successful - Fri Apr  9 23:59:30 2021       ;
-; Quartus II 64-Bit Version           ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
-; Revision Name                       ; phase                                       ;
-; Top-level Entity Name               ; phase                                       ;
-; Family                              ; Cyclone V                                   ;
-; Device                              ; 5CSEMA5F31C6                                ;
-; Timing Models                       ; Preliminary                                 ;
-; Logic utilization (in ALMs)         ; 1 / 32,070 ( < 1 % )                        ;
-; Total registers                     ; 0                                           ;
-; Total pins                          ; 15 / 457 ( 3 % )                            ;
-; Total virtual pins                  ; 0                                           ;
-; Total block memory bits             ; 0 / 4,065,280 ( 0 % )                       ;
-; Total DSP Blocks                    ; 0 / 87 ( 0 % )                              ;
-; Total HSSI RX PCSs                  ; 0                                           ;
-; Total HSSI PMA RX Deserializers     ; 0                                           ;
-; Total HSSI PMA RX ATT Deserializers ; 0                                           ;
-; Total HSSI TX PCSs                  ; 0                                           ;
-; Total HSSI PMA TX Serializers       ; 0                                           ;
-; Total HSSI PMA TX ATT Serializers   ; 0                                           ;
-; Total PLLs                          ; 0 / 6 ( 0 % )                               ;
-; Total DLLs                          ; 0 / 4 ( 0 % )                               ;
-+-------------------------------------+---------------------------------------------+
++----------------------------------------------------------------------------------+
+; Fitter Summary                                                                   ;
++-------------------------------------+--------------------------------------------+
+; Fitter Status                       ; Successful - Sun Apr 11 23:56:50 2021      ;
+; Quartus II 64-Bit Version           ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                       ; phase                                      ;
+; Top-level Entity Name               ; phase                                      ;
+; Family                              ; Cyclone V                                  ;
+; Device                              ; 5CSEMA5F31C6                               ;
+; Timing Models                       ; Preliminary                                ;
+; Logic utilization (in ALMs)         ; 1 / 32,070 ( < 1 % )                       ;
+; Total registers                     ; 0                                          ;
+; Total pins                          ; 15 / 457 ( 3 % )                           ;
+; Total virtual pins                  ; 0                                          ;
+; Total block memory bits             ; 0 / 4,065,280 ( 0 % )                      ;
+; Total DSP Blocks                    ; 0 / 87 ( 0 % )                             ;
+; Total HSSI RX PCSs                  ; 0                                          ;
+; Total HSSI PMA RX Deserializers     ; 0                                          ;
+; Total HSSI PMA RX ATT Deserializers ; 0                                          ;
+; Total HSSI TX PCSs                  ; 0                                          ;
+; Total HSSI PMA TX Serializers       ; 0                                          ;
+; Total HSSI PMA TX ATT Serializers   ; 0                                          ;
+; Total PLLs                          ; 0 / 6 ( 0 % )                              ;
+; Total DLLs                          ; 0 / 4 ( 0 % )                              ;
++-------------------------------------+--------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -141,22 +142,15 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+---------------------------------------+---------------------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.38        ;
-; Maximum used               ; 4           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  12.8%      ;
-;     Processors 5-8         ;   0.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
 +--------------------------------------------------+
@@ -231,7 +225,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in /media/lavie/ESD-USB/anthanh/FPGA/Phase/output_files/phase.pin.
+The pin-out file can be found in C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/output_files/phase.pin.
 
 
 +-------------------------------------------------------------------------------------+
@@ -1630,12 +1624,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (119006): Selected device 5CSEMA5F31C6 for design "phase"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Info (119007): Compilation Report contains advance information. Specifications for device 5CSEMA5F31C6 are subject to change. Contact Altera for information on availability. No programming file will be generated.
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
 Critical Warning (169085): No exact pin location assignment(s) for 15 pins of 15 total pins
     Info (169086): Pin clk not assigned to an exact location on the device
@@ -1665,7 +1660,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:17
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:27
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1674,7 +1669,7 @@ Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y23 to location X10_Y34
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
@@ -1687,10 +1682,17 @@ Warning (334000): Timing characteristics of device 5CSEMA5F31C6 are preliminary
 Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 1855 megabytes
-    Info: Processing ended: Fri Apr  9 23:59:31 2021
-    Info: Elapsed time: 00:00:40
-    Info: Total CPU time (on all processors): 00:00:51
+Info (144001): Generated suppressed messages file C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/output_files/phase.fit.smsg
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 5833 megabytes
+    Info: Processing ended: Sun Apr 11 23:56:51 2021
+    Info: Elapsed time: 00:01:17
+    Info: Total CPU time (on all processors): 00:01:09
+
+
++----------------------------+
+; Fitter Suppressed Messages ;
++----------------------------+
+The suppressed messages can be found in C:/Users/AnThanh/Desktop/FPGA-Altera-DE1-Board/Phase/output_files/phase.fit.smsg.
 
 
