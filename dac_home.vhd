@@ -15,7 +15,7 @@ entity dac is
 		led_hex3 : out std_logic_vector (6 downto 0);
 		led_hex4 : out std_logic_vector (6 downto 0);
 		-- Gpio = input -> DAC
-		gpio_1   : inout std_logic_vector (39 downto 0);
+		gpio_1   : inout std_logic_vector (39 downto 0)
 
 	);
 end dac;
@@ -112,7 +112,7 @@ architecture rtl of dac is
 		-- Port map led display
 		led0: display port map
 		(	
-			clk => clk,
+			clk => clk_50,
 			rst => rst,
 			cnt_hex => cnt_hex0,
 			-- Led 7 Seg
@@ -120,7 +120,7 @@ architecture rtl of dac is
 		);
 		led1: display port map
 			(	
-				clk => clk,
+				clk => clk_50,
 				rst => rst,
 				cnt_hex => cnt_hex1,
 				-- Led 7 Seg
@@ -128,7 +128,7 @@ architecture rtl of dac is
 			);
 		led2: display port map
 			(	
-				clk => clk,
+				clk => clk_50,
 				rst => rst,
 				cnt_hex => cnt_hex2,
 				-- Led 7 Seg
@@ -136,7 +136,7 @@ architecture rtl of dac is
 			);
 		led3: display port map
 		(	
-				clk => clk,
+				clk => clk_50,
 				rst => rst,
 				cnt_hex => cnt_hex3,
 				-- Led 7 Seg
@@ -144,7 +144,7 @@ architecture rtl of dac is
 			);
 		led4: display port map
 		(	
-				clk => clk,
+				clk => clk_50,
 				rst => rst,
 				cnt_hex => cnt_hex4,
 				-- Led 7 Seg
@@ -187,7 +187,7 @@ architecture rtl of dac is
 		dac_wrt_b <= clk_125;
 		dac_mode  <= '1';
 
-		gpio_1(0)  <= ;
+		--gpio_1(0)  <= ;
 		gpio_1(1)  <= DAC_DA(13);
 		gpio_1(3)  <= DAC_DA(12);
 		gpio_1(4)  <= DAC_DA(11);
@@ -256,11 +256,11 @@ architecture rtl of dac is
 					cnt_hex3 	<= 0;
 					cnt_hex4 	<= 0;
 				elsif rising_edge(clk_50) then
-					cnt_hex0 	<= (counter_run / 10000);
-					cnt_hex1 	<= ((counter_run / 1000) rem 10);
-					cnt_hex2 	<= ((counter_run / 100) rem 10);
-					cnt_hex3 	<= ((counter_run / 10) rem 10);
-					cnt_hex4 	<= (counter_run % 10);
+--					cnt_hex0 	<= (counter_run / 10000);
+--					cnt_hex1 	<= ((counter_run / 1000) rem 10);
+--					cnt_hex2 	<= ((counter_run / 100) rem 10);
+--					cnt_hex3 	<= ((counter_run / 10) rem 10);
+--					cnt_hex4 	<= (counter_run % 10);
 					if (counter_1hz = (50000000 - 1)) then
 						if (counter_run = max_counter - 1) then
 							counter_run <= 0;
